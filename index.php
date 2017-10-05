@@ -8,7 +8,8 @@
 
 							<?php // Edit the loop in /templates/index-loop. Or roll your own. ?>
 							<?php get_template_part( 'templates/index','loop'); ?>
-
+							<?php get_template_part( 'templates/post-navigation'); ?>
+							
 						</main>
 
 					<?php get_sidebar(); ?>
